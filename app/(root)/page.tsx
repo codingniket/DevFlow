@@ -5,10 +5,8 @@ const Home = async () => {
   const session = await auth();
   // console.log(session);
   return (
-    <div>
-      <h1 className="font-space-grotesk text-3xl h1-bold">
-        Hello from next js
-      </h1>
+    <div className="">
+     <h1>Hello Nextjs</h1>
     </div>
   );
 };
